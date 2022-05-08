@@ -1,0 +1,14 @@
+@media (max-width:480px) {
+    .blockheader{
+        flex-direction: column;
+    }
+
+    .blockheader .text ,.img{
+        width: 100%;
+        height: auto;
+    }
+    h1{
+        background-color: red;
+        color: white;
+    }
+}

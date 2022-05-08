@@ -1,0 +1,17 @@
+#main{
+    width: 100%;
+    height: 500px;
+    background-color: red;
+}
+#main h1{
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+#main .text , .img{
+    width: 50%;
+    height: 300px;
+    background-color: yellow;
+    border: 1px solid black;
+    float: left;
+}

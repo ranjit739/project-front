@@ -1,0 +1,36 @@
+#main{
+
+    height: 500px;
+    
+}
+h1{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+    background-color: blue;
+    padding: 20px;
+    
+}
+p{
+    text-align: justify;
+    padding: 10px;
+}
+ #main .blockheader{
+    display: flex;
+}
+.blockheader .text ,.img{
+    width: 50%;
+    height: 300px;
+   
+   
+   display: inline-block;
+    border: 1px solid black;
+   
+
+}
+img{
+    height: 200px;
+    padding: 10px;
+    width: 90%;
+}

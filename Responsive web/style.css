@@ -1,0 +1,149 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(227, 230, 236);
+}
+ul{
+    display: flex;
+   
+}
+ul li{
+
+    list-style-type: none;
+ 
+   
+    display: inline-block;
+    
+}
+ul li a{
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    padding: 1rem;
+    margin: 2rem;
+  
+    color: white;
+}
+ul li a:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    text-align: center;
+    width: 5rem;
+   
+ 
+}
+#navbar1{
+    background-color: rgb(124, 36, 36, 0.5);
+    width: 100%;
+    opacity: 0.04rem;
+    position: fixed;
+}
+
+/* home section */
+#home{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+           background:  url('./backg1.jpg') no-repeat center center/cover;
+height: 20rem;
+}
+.hp{
+    color: white;
+}
+.btn{
+    margin: 5rem 40rem;
+    font-size: 2rem;
+    padding: .5rem;
+    color: black;
+    font-weight: bold;
+}
+.btn:hover{
+background-color: green;
+color: white;
+}
+#servicess-section{
+    display: flex;
+    margin: 2rem;
+}
+#servicess-section .sbox{
+  
+    border: .2rem solid red;
+    padding: 5rem;
+    margin: .3rem 0.6rem;
+    border-radius: 2.8rem;
+    background-color: azure;
+}
+#servicess-section .sbox img{
+
+    height: 14rem;
+    margin: auto;
+    display: block;
+}
+#servicess-section .sbox p,h2{
+    text-align: center;
+    padding: .5rem;
+}
+
+#service2{
+    display: flex;
+    background-color: rgb(137, 137, 158);
+    justify-content: center;
+}
+#service2 .sbox img{
+    height: 14rem;
+ margin: 1rem;
+}
+#service2 .sbox img:hover{
+    height: 12rem;
+    cursor: pointer;
+
+}
+.client{
+    background: url("./backg2.jpg") no-repeat center center/cover;
+    margin: 1rem;
+}
+.client .logoimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.client .logoimg img{
+    margin: 1rem;
+    padding: 1rem;
+    height: 8rem;
+}
+#contact{
+    display: flex;
+    height: auto;
+    
+    justify-content: center;
+  background: url("./img/contactUs.jpg") no-repeat center center/cover;
+color: white;
+}
+footer{
+    margin: 2rem;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+html{
+    font-size: 62%;
+}
+
+@media(max-width:998px) {
+    html{
+        font-size: 55%;
+    }
+    
+}
+
+
+
+
